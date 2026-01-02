@@ -7,7 +7,7 @@ import { initControls } from './controls';
 let renderer = null;
 let controls = null;
 let cleanup = null;
-let night = false;
+let night = true;
 
 async function init() {
   renderer = new THREE.WebGLRenderer({ antialias: true });

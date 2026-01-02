@@ -236,7 +236,7 @@ async function createScene() {
     texture: moonTextures, // textura de luna
     position: new THREE.Vector3(5, 15, 5),
     size: 1.5,
-    intensity: 0.3,
+    intensity: 0.03,
   });
   panelHitboxes = createDayNightPanel(scene);
   enableShadows(scene);
